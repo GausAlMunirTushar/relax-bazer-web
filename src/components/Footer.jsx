@@ -9,7 +9,7 @@ const Footer = () => {
           <Image src="logo.svg" alt="logo" width={150} height={100} />
         </div>
       </div>
-      <div className="container mx-auto grid md:grid-cols-12 justify-items-center text-white py-5 capitalize">
+      <div className="container mx-auto grid md:grid-cols-12 justify-items-between text-white py-5 capitalize">
         <div className="col-span-4">
           <h3 className="text-2xl uppercase py-2">useful links</h3>
           <ul>
