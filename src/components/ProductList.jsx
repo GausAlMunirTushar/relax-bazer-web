@@ -7,7 +7,7 @@ const ProductList = ({ productTitle }) => {
           <h2 className='text-xl text-primary'>{productTitle}</h2>
           <p>View All</p>
         </div>
-        <div className ="grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center">
+        <div className ="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center">
           <Product/>
           <Product/>
           <Product/>
