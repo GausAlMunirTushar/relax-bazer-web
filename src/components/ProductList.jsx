@@ -2,7 +2,7 @@ import React from 'react'
 import Product from './Product'
 const ProductList = ({ productTitle }) => {
   return (
-    <div className='container mx-auto py-3 border-2 border-primary rounded-md my-5'>
+    <div className='container md:mx-auto sm:py-3 md:border-2 border-primary rounded-md my-5'>
         <div className="flex justify-between p-2 font-bold">
           <h2 className='text-xl text-primary'>{productTitle}</h2>
           <p>View All</p>

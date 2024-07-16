@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-const ProductCategory = () => {
+const ProductCategory = ({ categoryTitle }) => {
   return (
     <div>
       <div className="w-60 border-2 border-gray-300 rounded-lg p-3">
@@ -16,7 +16,7 @@ const ProductCategory = () => {
         </div>
         <div className="flex flex-col items-center">
           <div className="text-xl text-primary ">
-            <p>70.00</p>
+            <p>{categoryTitle}</p>
           </div>
           <div>
             <MdKeyboardArrowDown className="text-primary" />

@@ -9,7 +9,7 @@ const Footer = () => {
           <Image src="logo.svg" alt="logo" width={150} height={100} />
         </div>
       </div>
-      <div className="container mx-auto grid md:grid-cols-12 justify-items-between text-white py-5 capitalize">
+      <div className="container mx-auto grid md:grid-cols-12 justify-items-between text-white px-5 py-5 capitalize sm:py-5">
         <div className="col-span-4">
           <h3 className="text-2xl uppercase py-2">useful links</h3>
           <ul>
@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className="text-2xl uppercase py-2">join our community</h3>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-1 justify-items-center py-5">
+      <div className="container mx-auto grid grid-cols-1 justify-items-center px-5  sm:py-5">
         <hr className="w-full py-5"/>
         <div className="w-full mxa-auto md:flex md:item-center  md:justify-between">
           <p className="text-white">RelaxBazar. All rights reserved.</p>
