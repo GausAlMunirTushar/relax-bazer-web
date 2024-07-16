@@ -9,8 +9,8 @@ const Product = () => {
             <Image src="/images/product/cumin-powder.png" alt="Product Image" height={211} width={85}/>
         </div>
         <div>
-            <p className='text-2xl font-semibold'>Cumin Powder</p>
-            <p className='text-xl font-semibold'>(জিরা গুড়া)</p>
+            <p className='text-xl font-semibold'>Cumin Powder</p>
+            <p className='text-lg font-semibold'>(জিরা গুড়া)</p>
         </div>
         <p className='bg-primary inline-block px-8 text-white rounded-xl my-2'>1 Kg</p>
         <div className="flex justify-between items-center">
